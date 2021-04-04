@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.4.2)
+  - Infinity (0.0.1):
+    - Alamofire (~> 5.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - Infinity (from `./`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  Infinity:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
+  Infinity: 03c70aba0d040d8ab1e8ea592b8472872c3fc9cc
+
+PODFILE CHECKSUM: b31e059ff36b8f158a13ce98eeb103447d9bbefb
+
+COCOAPODS: 1.10.1
