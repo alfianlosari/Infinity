@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "Infinity"
+  spec.name         = "Infinity-A1"
   spec.version      = "0.0.1"
   spec.summary      = "A short description of Infinity."
 
@@ -28,7 +28,8 @@ Pod::Spec.new do |spec|
   an example pod
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/Infinity"
+  spec.homepage     = "http://alfianlosari.com"
+  spec.homepage     = "https://github.com/alfianlosari/Infinity"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -63,11 +64,11 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  spec.platform     = :ios
   spec.platform     = :ios, "11.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+  spec.ios.deployment_target = "11.0"
+  spec.swift_version = "5.3.3"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://alfianlosari/Infinity.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/alfianlosari/Infinity.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "Infinity/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
